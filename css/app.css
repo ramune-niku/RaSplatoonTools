@@ -12,6 +12,15 @@
     font-style: normal;
 }
 
+/* 部分的に適用するための専用クラス */
+.splatoon-text-Ja {
+    font-family: 'SplatoonFontJa', sans-serif;
+}
+
+.splatoon-text-En {
+    font-family: 'SplatoonFontEn', sans-serif;
+}
+
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
