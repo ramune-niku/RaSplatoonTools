@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'SplatoonFontJa'; /* 自分で決めるフォント名 */
-    src: url('ikamodoki1_0.ttf') format('truetype'); /* ファイルへのパス */
+    src: url('fonts/ikamodoki1_0.ttf') format('truetype'); /* ファイルへのパス */
     font-weight: normal;
     font-style: normal;
 }
