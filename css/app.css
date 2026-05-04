@@ -127,3 +127,9 @@ code {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+
+button:active {
+    transform: scale(0.95); /* 5% 小さくする */
+    filter: brightness(0.8); /* 少し暗くする */
+    transition: transform 0.1s;
+}
