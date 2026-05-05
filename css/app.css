@@ -15,11 +15,11 @@
 /* 部分的に適用するための専用クラス */
     .splatoon-text-Ja {
         font-family: 'SplatoonFontJa', sans-serif;
-        text-shadow: 2px 2px 0px #222;
+        text-shadow: 1px 1px 0px #222;
     }
     .splatoon-text-En {
         font-family: 'SplatoonFontEn', sans-serif;
-        text-shadow: 2px 2px 0px #222;
+        text-shadow: 1px 1px 0px #222;
     }
 
     html, body {
