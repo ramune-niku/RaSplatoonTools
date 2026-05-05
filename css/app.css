@@ -22,8 +22,10 @@
         text-shadow: 1px 1px 0px #222;
     }
 
+
     html, body {
         font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        background-color: #333333;
     }
 
     h1:focus {
@@ -38,6 +40,7 @@
         color: #fff;
         background-color: #1b6ec2;
         border-color: #1861ac;
+        border-radius: 50px;
     }
 
     .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -61,6 +64,8 @@
     }
 
     #blazor-error-ui {
+        color: white;
+        background-color: black;
         color-scheme: light only;
         background: lightyellow;
         bottom: 0;
@@ -119,6 +124,7 @@
         text-align: center;
         font-weight: bold;
         inset: calc(20vh + 3.25rem) 0 auto 0.2rem;
+        color: white;
     }
 
         .loading-progress-text:after {
@@ -139,7 +145,7 @@
     }
 
 button:active {
-    transform: scale(0.95); /* 5% 小さくする */
+    transform: scale(0.98); /* 5% 小さくする */
     filter: brightness(0.8); /* 少し暗くする */
     top: 2px;
     text-shadow: none;
