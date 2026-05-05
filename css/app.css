@@ -151,3 +151,32 @@ button:active {
     text-shadow: none;
     transition: transform 0.1s;
 }
+
+.btn-custom {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    position: relative; /* topアニメーションに必要 */
+    transition: transform 0.1s ease, filter 0.1s ease;
+    /* スプラトゥーンらしいフォントを適用 */
+    font-family: 'SplatoonFontEn', 'SplatoonFontJa', sans-serif;
+}
+
+    button:active, .btn-custom:active {
+        transform: scale(0.95); /* 5%小さくする */
+        filter: brightness(0.8); /* 少し暗くする */
+        top: 2px; /* 物理的に下に沈ませる */
+        text-shadow: none;
+        transition: transform 0.05s;
+    }
+
+    .btn-custom:hover {
+        filter: brightness(1.1);
+    }
