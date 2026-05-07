@@ -160,3 +160,16 @@ main[b-olwbyd15t5] {
         overflow-y: auto;
     }
 }
+/* アイコンとテキストの間に隙間を作る */
+.nav-link span:last-child[b-3h8b69h7bf] {
+    margin-left: 15px; /* ここでお好みの距離に調整してください */
+    display: inline-block; /* 位置を安定させるために追加 */
+    vertical-align: middle;
+}
+
+/* ついでにアイコン自体の位置も微調整する場合 */
+.nav-link .oi[b-3h8b69h7bf] {
+    width: 1.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+}
